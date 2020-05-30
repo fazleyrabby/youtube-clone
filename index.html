@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul class="left-icons">
+                <li id="navbtn">
+                    <i class="fas fa-bars"></i>
+                </li>
+
+                <li id="logo">
+                    <i class="fab fa-youtube"></i>
+                    <span>Youtube</span>
+                </li>
+            </ul>
+
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <span class="searchbtn">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+
+            <ul class="right-icons">
+                <li class="search-icon">
+                    <i class="fas fa-search"></i>
+                </li>
+
+                <li class="create">
+                    <svg viewBox="0 0 28 28" preserveAspectRatio="xMidYMid meet" focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                    <g class="style-scope yt-icon">
+                        <path
+                            d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z"
+                            class="style-scope yt-icon"></path>
+                    </g>
+                </svg>
+                </li>
+
+                <li class="apps">
+                    <i class="fas fa-th"></i>
+                </li>
+
+                <li class="bell">
+                    <i class="fas fa-bell"></i>
+                </li>
+
+                <li class="profile">
+                    <img src="./profile.jpg" alt="">
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <section class="hero">
+        <div class="sidebar">
+            <ul class="left-icons">
+                <li id="navbtn_mobile">
+                    <i class="fas fa-bars"></i>
+                </li>
+
+                <li id="logo">
+                    <i class="fab fa-youtube"></i>
+                    <span>Youtube</span>
+                </li>
+            </ul>
+
+            <ul id="sidebar-content">
+                <li class="active trigger">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </li>
+
+                <li class="trigger">
+                    <i class="fas fa-fire"></i>
+                    <span>Trending</span>
+                </li>
+
+                <li class="sub trigger">
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="style-scope yt-icon"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path
+                                d="M18.7 8.7H5.3V7h13.4v1.7zm-1.7-5H7v1.6h10V3.7zm3.3 8.3v6.7c0 1-.7 1.6-1.6 1.6H5.3c-1 0-1.6-.7-1.6-1.6V12c0-1 .7-1.7 1.6-1.7h13.4c1 0 1.6.8 1.6 1.7zm-5 3.3l-5-2.7V18l5-2.7z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                    <span>
+                        Subscriptions
+                    </span>
+                </li>
+
+                <li class="trigger">
+                    <svg viewBox="0 0 27 27" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="style-scope yt-icon"
+                        style="color: #555;pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path fill="none" d="M0 0h24v24H0z" class="style-scope yt-icon"></path>
+                            <path
+                                d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l6 4.5-6 4.5z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                    <span>Library</span>
+                </li>
+
+
+                <li>
+                    <i class="fas fa-history"></i>
+                    <span>History</span>
+                </li>
+
+
+                <li>
+                    <svg viewBox="0 0 27 27" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="style-scope yt-icon"
+                        style="color: #555; pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path
+                                d="M18.4 5.6v12.8H5.6V5.6h12.8zm0-1.8H5.6a1.8 1.8 0 0 0-1.8 1.8v12.8a1.8 1.8 0 0 0 1.8 1.9h12.8a1.8 1.8 0 0 0 1.9-1.9V5.6a1.8 1.8 0 0 0-1.9-1.8z"
+                                class="style-scope yt-icon"></path>
+                            <path d="M10.2 9v6.5l5-3.2-5-3.2z" class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                    <span>Your Videos</span>
+                </li>
+
+                <li>
+                    <i class="fas fa-clock"></i>
+                    <span>Watch Later</span>
+                </li>
+            </ul>
+            <hr>
+            <h4 class="side-header">Subscriptions</h4>
+
+            <ul class="subscriptions">
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Item 1</span>
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Item 1</span>
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Item 1</span>
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Item 1</span>
+                </li>
+            </ul>
+
+            <hr>
+
+            <h4 class="side-header">More from Youtube</h4>
+
+            <ul class="more">
+                <li>
+                    <i class="fas fa-heartbeat"></i>
+                    <span>Gaming</span>
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Live</span>
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Fashion & Beauty</span>
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Learning</span>
+                </li>
+            </ul>
+
+            <hr>
+
+            <ul class="more">
+                <li>
+                    <i class="fas fa-cog"></i>
+                    <span>Settings</span>
+                </li>
+                <li>
+                    <i class="fas fa-flag"></i>
+                    <span>Report History</span>
+                </li>
+                <li>
+                    <i class="fas fa-question-circle"></i>
+                    <span>Help</span>
+                </li>
+                <li>
+                    <i class="fas fa-comment-alt"></i>
+                    <span>Send feedback</span>
+                </li>
+            </ul>
+
+            <div class="sub-footer">
+                <span>About</span>
+                <span>Copyright</span>
+                <span>Contact Us</span>
+                <span>Creators</span>
+                <span>Advertise</span>
+                <span>Developers</span>
+            </div>
+
+
+            <div class="footer">
+                &copy; 2020 Google LLC
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="details">
+                        <div class="profile-pic"></div>
+                        <div class="video-details">
+                            <div class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+                            </div>
+                            <div class="channel">New Channel</div>
+                            <div class="views">17k views 
+                                <span class="uploaded">2days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+    
+
+
+
+
+    <script src="https://kit.fontawesome.com/03e233b384.js" crossorigin="anonymous"></script>
+</body>
+</html>
